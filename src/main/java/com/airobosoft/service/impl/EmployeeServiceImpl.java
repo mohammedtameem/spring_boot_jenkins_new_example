@@ -14,10 +14,13 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.logging.Logger;
 
 @Service
 @Transactional
 public class EmployeeServiceImpl implements EmployeeService {
+
+    public static Logger logger = Logger.getLogger("EmployeeServiceImpl.class");
     private final EmployeeRepository repository;
 
     public EmployeeServiceImpl(EmployeeRepository repository) {
