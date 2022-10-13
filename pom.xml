@@ -81,7 +81,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>devops_automation.jar</finalName>
+		<finalName>devops_automation</finalName>
 	</build>
 
 </project>
